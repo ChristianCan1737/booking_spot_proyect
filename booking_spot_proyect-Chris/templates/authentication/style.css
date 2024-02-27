@@ -1,0 +1,54 @@
+body {
+    background-color: #7a1fa2;
+    color: white;
+    font-family: 'Aptos', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Customise buttons with a more modern style */
+button {
+    background-color: #fff;
+    color: #7a1fa2;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button a {
+    color: #7a1fa2;
+    text-decoration: none; /* Remove underlining from links */
+}
+
+button a:hover {
+    color: #fff;
+    background-color: #7a1fa2;
+}
+
+/* Styles for alert messages */
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Style for closing buttons in alert messages */
+.close {
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close:hover {
+    color: black;
+}
